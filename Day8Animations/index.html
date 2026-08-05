@@ -3,113 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Dashboard</title>
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: changeColor;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
 
-    <link rel="stylesheet" href="style.css">
+        }
 
-    <!-- Google-Fonts -->
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        /* @keyframes changeColor{
 
-     <!-- Icons -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+            from{background-color: red;}
 
+
+             to{background-color: blue;}
+        } */
+
+         /* @keyframes changeColor{
+
+           0% {background-color: red;}
+
+           25% {background-color: blue;}
+
+           50% {background-color: yellow;}
+
+           75% {background-color: aqua;}
+
+           100% {background-color: brown;}
+        } */
+
+         @keyframes changeColor{
+
+           0% {transform: translateX(0);        background-color: red;}
+
+          
+
+           50% { transform: translateY(200px);  background-color: yellow;}
+
+          
+
+           100% { transform: translateX(0);     background-color: brown;}
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Side Bar -->
-         <aside class="sidebar">
-         <h2 class="logo">EmployeeHub</h2>
+    <div class="box"></div>
 
-         <ul>
-            <li><i class="fa-solid fa-house"></i>Dashboard</li>
-            <li><i class="fa-solid fa-users"></i>Employees</li>
-            <li><i class="fa-solid fa-building"></i>Departments</li>
-            <li><i class="fa-solid fa-chart-line"></i>Reports</li>
-            <li><i class="fa-solid fa-gear"></i>Settings</li>
-            <li><i class="fa-solid fa-right-from-bracket"></i>logout</li>
-         </ul>
-         </aside>
-
-
-         <main class="main-content">
-                <!-- Navbar -->
-                 <header class="navbar">
-                   <input type="text" placeholder="Search Employee">
-                  
-                   <div class="profile">
-                    <i class="fa-solid fa-bell"></i>
-                    <img src="https://i.pravatar.cc/40" alt="Userimage">
-                    <span>Admin</span>
-                   </div>
-                 </header>
-
-                 <!-- Dashboard Title -->
-                  <h1>Dashboard Overview</h1>
-
-                  <!-- Cards -->
-                   <section class="cards">
-
-                    <div class="card">
-                        <h3>Total Employee</h3>
-                        <p>250</p>
-                    </div> 
-                    
-                    <div class="card">
-                        <h3>Active</h3>
-                        <p>220</p>
-                    </div>
-
-                    <div class="card">
-                        <h3>On Leave</h3>
-                        <p>15</p>
-                    </div>
-
-                    <div class="card">
-                        <h3>Departments</h3>
-                        <p>8</p>
-                    </div>
-                 </section>
-
-
-                 <!-- Table -->
-                  <section class="emplyee-section">
-
-                   <div class="table-header">
-                  
-                     <h2>Employee List</h2>
-                    <button>Add Employee</button>
-
-                   </div>
-
-                   <table>
-                    <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Department</th>
-                        <th>Salary</th>
-                        <th>Status</th>
-                        <th>Action</th>
-                        
-                    </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>John</td>
-                            <td>Developer</td>
-                            <td>Rs 80,000</td>
-                            <td><span class="status active">Active</span></td>
-                            <td>
-                                <button>Edit</button>
-                                <button>Delete</button>
-                            </td>
-                        </tr>
-
-                    </tbody>
-                   </table>
-
-
-                  </section>
-         </main>
-    </div>
+    <strong>Animation Effect Goes Back To Original Form After Completing</strong>
 </body>
 </html>
