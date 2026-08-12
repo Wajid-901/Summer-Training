@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Smartwatch</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white text-gray-800">
+    <!--Navbar-->
+
+    <nav class="bg-white shadow-md">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <h1 class="text-2xl font-bold text-blue-600">NovaWatch</h1>
+
+        <ul class="hidden md:flex items-center gap-8 font-medium">
+          <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+          <li><a href="#features" class="hover:text-blue-600">Features</a></li>
+          <li><a href="#benefits" class="hover:text-blue-600">Benefits</a></li>
+          <li><a href="#reviews" class="hover:text-blue-600">Reviews</a></li>
+          <li><a href="#pricing" class="hover:text-blue-600">Pricing</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+
+        <button class="md:hidden text-3xl">☰</button>
+      </div>
+    </nav>
+
+    <section id="home" class="max-w-7xl mx-auto px-6 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl md:text-5xl font-bold leading-tight">
+            Nova Smartwatch
+          </h2>
+
+          <p class="mt-6 text-gray-600 text-lg">
+            Stay connected, monitor your health, and achieve your fitness goals
+            with the all-new Nova Smartwatch. Designed for everyday comfort with
+            advanced smart features.
+          </p>
+
+          <a
+            href="#pricing"
+            class="inline-block mt-8 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700"
+          >
+            Buy Now
+          </a>
+        </div>
+        <div>
+          <img
+            src="https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg"
+            alt="Nova Smartwatch"
+            class="w-full rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-gray-100 py-16">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">Key Features</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow text-center">
+            <h3 class="text-xl font-semibold mb-3">Heart Rate Monitor</h3>
+            <p class="text-gray-600">
+              Track your heart rate throughout the day.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow text-center">
+            <h3 class="text-xl font-semibold mb-3">Fitness Tracking</h3>
+            <p class="text-gray-600">
+              Monitor steps, calories, and daily activity.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow text-center">
+            <h3 class="text-xl font-semibold mb-3">GPS</h3>
+            <p class="text-gray-600">
+              Built-in GPS for accurate outdoor navigation.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow text-center">
+            <h3 class="text-xl font-semibold mb-3">Long Battery</h3>
+            <p class="text-gray-600">
+              Enjoy up to 7 days of battery life on one charge.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow text-center">
+            <h3 class="text-xl font-semibold mb-3">Water Resistant</h3>
+            <p class="text-gray-600">Suitable for workouts and everyday use.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+
+    <section id="benefits" class="py-16">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">Benefits</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div>
+            <h3 class="text-2xl font-semibold mb-4">
+              Why Choose Nova Smartwatch?
+            </h3>
+
+            <p class="text-gray-600 mb-4">
+              Nova Smartwatch helps you stay active and connected by providing
+              real-time health monitoring and smart notifications throughout the
+              day.
+            </p>
+
+            <p class="text-gray-600 mb-4">
+              Its lightweight design and long battery life make it a reliable
+              companion for work, exercise, and everyday activities.
+            </p>
+
+            <ul class="list-disc pl-5 text-gray-600 space-y-2">
+              <li>Improves daily fitness tracking.</li>
+              <li>Keeps you connected with smart notifications.</li>
+              <li>Comfortable to wear all day.</li>
+            </ul>
+          </div>
+
+          <div>
+            <img
+              src="https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg"
+              alt="Smartwatch Benefits"
+              class="w-full rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonials-->
+
+    <section id="reviews" class="bg-gray-100 py-16">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">Customer Reviews</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <p class="text-gray-600 mb-4">
+              "The Nova Smartwatch has made tracking my daily fitness much
+              easier. The battery lasts for days."
+            </p>
+
+            <h3 class="font-semibold">Abdul Wajid</h3>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow">
+            <p class="text-gray-600 mb-4">
+              "Comfortable to wear and the health monitoring features are very
+              accurate. Highly recommended."
+            </p>
+
+            <h3 class="font-semibold">Sadiya Khatoon</h3>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow">
+            <p class="text-gray-600 mb-4">
+              "Excellent smartwatch with premium design and useful smart
+              notifications for everyday use."
+            </p>
+
+            <h3 class="font-semibold">Sajid</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Pricing-->
+
+    <section id="pricing" class="py-16">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">Pricing</h2>
+
+        <div
+          class="max-w-md mx-auto bg-white shadow-lg rounded-lg p-8 text-center"
+        >
+          <h3 class="text-2xl font-semibold mb-4">Nova Smartwatch</h3>
+
+          <p class="text-4xl font-bold text-blue-600 mb-6">₹9,999</p>
+
+          <p class="text-gray-600 mb-8">
+            Get the Nova Smartwatch with advanced health tracking, fitness
+            monitoring, GPS, and smart notifications.
+          </p>
+
+          <a
+            href="#"
+            class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg"
+          >
+            Buy Now
+          </a>
+        </div>
+      </div>
+    </section>
+
+        <!--Footer-->
+
+    <footer id="contact" class="bg-gray-900 text-white py-8">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <div>
+
+                    <h3 class="text-xl font-semibold mb-4">
+                        Contact Us
+                    </h3>
+
+                    <p>Email: support@novawatch.com</p>
+                    <p>Phone: +91 7505086611</p>
+                    <p>Address: Bihar, India</p>
+
+                </div>
+                <div>
+
+                    <h3 class="text-xl font-semibold mb-4">
+                        Follow Us
+                    </h3>
+
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">Facebook</a></li>
+                        <li><a href="#" class="hover:underline">Instagram</a></li>
+                        <li><a href="#" class="hover:underline">Twitter</a></li>
+                    </ul>
+
+                </div>
+                <div>
+
+                    <h3 class="text-xl font-semibold mb-4">
+                        NovaWatch
+                    </h3>
+
+                    <p>
+                        &copy; 2026 NovaWatch. All rights reserved.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+  </body>
+</html>
