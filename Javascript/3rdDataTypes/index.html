@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Data Types  - Different Types of Data in
+
+        //1. String - "Text"  or 'Text'
+
+        let email = "abc@gmail.com"  //String
+
+        let password = "12345"   // String
+             //InBuild Method - typeof(Value)  Help Us tO check Data Type
+
+        console.log(typeof(email) )
+
+        console.log(typeof(password))
+
+        //2. Number - +ve , -ve , decimal No
+        //   Number should be written Directly
+
+        let temp = -22.55
+
+        console.log(typeof(temp))
+
+        //3 . Boolean - true or false
+
+        let LoginStatus = true
+
+        let NetflixSub = false
+
+        console.log(typeof(LoginStatus)) // Boolean
+
+        console.log(typeof(NetflixSub))  // Boolean
+
+
+        //4. Undefiend - When You Dont Assign Any Value
+
+        let discount 
+        console.log(typeof(discount))
+
+        //5 . null - Means Nothing
+
+        let Score = null
+
+        console.log(typeof(Score))
+        //Due To Bug in Js . It shows Object as Output of null
+
+
+        // Multiple Data
+
+        //1. Array - Help us to store Multiple Data and It will store diff types of Data Type
+        // Symbol - []
+        //Index No(Position No of Data) Starts With 0
+
+        let students = ["Midhun", "Aaditi" , "Rahul" , "David" , 1245 , true]
+
+        console.log(students)
+
+        console.log(students[2])
+        console.log(students[4])
+
+        //Object - Collection of Data
+         // Symbol - {}
+         // Key:Value Pair - Rule
+
+         let employee1 = {
+                name : "inesh" ,
+                email:"inesh@gmail.com" ,
+                department:"IT",
+                LoginStatus:false
+
+         }
+         console.log(employee1)
+
+         console.log(employee1.LoginStatus)
+         console.log(employee1.name)
+
+    </script>
+</body>
+</html>
